@@ -28,6 +28,8 @@ class SlideDeck {
   *                          data layer group.
   */
 
+ 
+
   // Create the Icon 
   
   updateDataLayer(data) {
