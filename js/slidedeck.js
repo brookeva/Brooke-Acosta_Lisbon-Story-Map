@@ -167,10 +167,11 @@ class SlideDeck {
   calcCurrentSlideIndex() {
     const scrollPos = window.scrollY;
     const windowHeight = window.innerHeight;
+    const parentTop = document.querySelector('.slide-section').offsetTop;
 
     let i;
     for (i = 0; i < this.slides.length; i++) {
-      const slidePos = this.slides[i].offsetTop - scrollPos + (windowHeight * .7);
+      const slidePos = parentTop + this.slides[i].offsetTop - scrollPos + (windowHeight * .7);
       if (slidePos >= 0) {
         break;
       }

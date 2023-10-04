@@ -17,3 +17,5 @@ document.addEventListener('scroll', () => deck.calcCurrentSlideIndex());
 
 deck.preloadFeatureCollections();
 deck.syncMapToCurrentSlide();
+
+window.deck = deck;
