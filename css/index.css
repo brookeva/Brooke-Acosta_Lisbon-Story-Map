@@ -4,7 +4,7 @@ body {
   box-sizing: border-box;
   height: 100vh;
 
-  font-family: 'Helvetica', Arial, Helvetica, sans-serif;
+  font-family: 'Avenir', Arial, Helvetica, sans-serif;
 }
 
 .map-container {
@@ -87,25 +87,56 @@ body {
   width: 400px
 }
 
-h1 {
-  font-weight: 800;
-  font-size: 6rem;
+ h1 {
+  font-weight: 900;
+  font-size: 8rem;
+  color: white;
   margin-top: auto;
   margin-bottom: auto;
   width: 100%;
 }
 
 h2 {
-  font-weight: 600;
-  font-size: 4rem;
+  font-weight: 900;
+  font-size: 8rem;
+  color: rgb(240,193,107);
 }
 
 h3 {
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: white;
 }
 
 h4 {
   font-weight: 600;
   font-size: 1.5rem;
+  color: white;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
